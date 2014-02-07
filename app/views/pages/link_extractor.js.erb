@@ -1,0 +1,4 @@
+$("#link_image").attr('src','<%= @images[0] %>');
+$('#title').html('<%= escape_javascript @title %>');
+$('#atc_desc').html('<%= escape_javascript @description %>');
+$('#atc_url').attr('href','<%= @url %>').html('View at source');

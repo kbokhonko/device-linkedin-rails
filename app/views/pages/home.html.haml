@@ -1,0 +1,11 @@
+- if user_signed_in?
+  .form-group
+    %label{:for => "exampleInputEmail1"} Paste here url ("https://...")
+    %input#url{:type => "text"}/
+  #attach_content{:style => ""}
+    #atc_images
+      %img#link_image{:src => ""}/   
+    #atc_info
+      %label#title 
+      %label#atc_desc 
+      %a#atc_url{:href => ""}
